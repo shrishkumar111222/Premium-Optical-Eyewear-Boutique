@@ -1,0 +1,193 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Google Fonts are loaded via a <link> in the layout; the stacks below keep
+       the page looking right before (or without) them. */
+    --font-display: 'Cormorant Garamond', ui-serif, 'Iowan Old Style', Georgia,
+      'Times New Roman', serif;
+    --font-sans: 'Inter', ui-sans-serif, -apple-system, BlinkMacSystemFont,
+      'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    --header-height: 76px;
+  }
+
+  * {
+    @apply border-line;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    /* Anchor targets clear the sticky header. */
+    scroll-padding-top: var(--header-height);
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-paper-warm text-ink font-sans antialiased;
+    /* Guards against any child ever forcing a sideways scroll. */
+    overflow-x: hidden;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display font-light;
+    text-wrap: balance;
+  }
+
+  /* A single, consistent focus ring across the whole site. */
+  :focus-visible {
+    outline: 2px solid theme('colors.gold.DEFAULT');
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  ::selection {
+    @apply bg-gold text-ink;
+  }
+
+  /* Restrained scrollbar on desktop. */
+  @media (min-width: 1024px) {
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #f1efe9;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #cfcbc0;
+      border-radius: 99px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: theme('colors.gold.DEFAULT');
+    }
+  }
+}
+
+@layer components {
+  .container-luxe {
+    @apply mx-auto w-full max-w-content px-5 sm:px-8 lg:px-12;
+  }
+
+  /* Small uppercase label used above most section headings. */
+  .eyebrow {
+    @apply inline-flex items-center gap-3 text-[11px] uppercase tracking-luxe text-gold-ink;
+  }
+
+  /* Bright gold reads well on the dark sections and fails contrast on the light ones. */
+  .eyebrow-light {
+    @apply text-gold;
+  }
+
+  .eyebrow::before {
+    content: '';
+    @apply block h-px w-8 bg-current opacity-60;
+  }
+
+  /* Small uppercase gold labels on light surfaces. */
+  .label-gold {
+    @apply text-[10px] uppercase tracking-wide2 text-gold-ink;
+  }
+
+  .heading-xl {
+    @apply font-display text-[clamp(2.6rem,7vw,5.5rem)] font-light leading-[1.02] tracking-[-0.01em];
+  }
+
+  .heading-lg {
+    @apply font-display text-[clamp(2rem,4.6vw,3.5rem)] font-light leading-[1.08] tracking-[-0.01em];
+  }
+
+  .heading-md {
+    @apply font-display text-[clamp(1.5rem,2.6vw,2.25rem)] font-light leading-[1.15];
+  }
+
+  .body-lg {
+    @apply text-[15px] leading-relaxed text-ink/70 sm:text-base;
+  }
+
+  /* Buttons ---------------------------------------------------------- */
+  .btn {
+    @apply inline-flex min-h-[48px] items-center justify-center gap-2.5 whitespace-nowrap
+           px-6 text-[12px] font-medium uppercase tracking-wide2
+           transition-all duration-500 ease-luxe;
+  }
+
+  .btn-primary {
+    @apply btn bg-ink text-paper hover:bg-ink-charcoal hover:shadow-[0_18px_40px_-18px_rgba(0,0,0,0.65)];
+  }
+
+  .btn-gold {
+    @apply btn bg-gold text-ink hover:bg-gold-light hover:shadow-[0_18px_40px_-18px_rgba(201,162,39,0.8)];
+  }
+
+  .btn-outline {
+    @apply btn border border-ink/25 text-ink hover:border-ink hover:bg-ink hover:text-paper;
+  }
+
+  .btn-outline-light {
+    @apply btn border border-white/30 text-white hover:border-gold hover:bg-gold hover:text-ink;
+  }
+
+  .btn-ghost-light {
+    @apply btn bg-white/10 text-white backdrop-blur-sm hover:bg-white hover:text-ink;
+  }
+
+  .hairline {
+    @apply h-px w-full bg-ink/10;
+  }
+
+  /* Thin gold rule used as a section divider. */
+  .rule-gold {
+    @apply h-px w-16 bg-gold;
+  }
+
+  .card-surface {
+    @apply relative overflow-hidden bg-paper transition-all duration-700 ease-luxe;
+  }
+
+  /* Screen-reader-only text that becomes visible on focus (skip link). */
+  .skip-link {
+    @apply sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100]
+           focus:bg-ink focus:px-5 focus:py-3 focus:text-xs focus:uppercase
+           focus:tracking-wide2 focus:text-paper;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  /* Horizontal scrollers: hide the bar but keep keyboard/scroll behaviour. */
+  .no-scrollbar {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .mask-fade-r {
+    -webkit-mask-image: linear-gradient(to right, black 82%, transparent 100%);
+    mask-image: linear-gradient(to right, black 82%, transparent 100%);
+  }
+}
+
+/* Anyone who asks for less motion gets a static, fully usable site. */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

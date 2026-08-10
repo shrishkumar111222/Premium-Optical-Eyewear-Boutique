@@ -1,0 +1,757 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" role="img" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050505" />
+      <stop offset="55%" stop-color="#1a1a1a" />
+      <stop offset="100%" stop-color="#242424" />
+    </linearGradient>
+    <radialGradient id="keyLight" cx="50%" cy="38%" r="62%">
+      <stop offset="0%" stop-color="#3a3a3a" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#3a3a3a" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="rimGold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E8D7A5" />
+      <stop offset="45%" stop-color="#C9A227" />
+      <stop offset="100%" stop-color="#8C6F16" />
+    </linearGradient>
+    <linearGradient id="rimSteel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F2F2F2" />
+      <stop offset="50%" stop-color="#A8A8A8" />
+      <stop offset="100%" stop-color="#5E5E5E" />
+    </linearGradient>
+    <linearGradient id="rimDark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4A4A4A" />
+      <stop offset="50%" stop-color="#151515" />
+      <stop offset="100%" stop-color="#000000" />
+    </linearGradient>
+    <linearGradient id="lensDark" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0%" stop-color="#2A2A2A" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#080808" stop-opacity="0.98" />
+    </linearGradient>
+    <linearGradient id="lensLight" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.55" />
+      <stop offset="100%" stop-color="#C9CDD2" stop-opacity="0.45" />
+    </linearGradient>
+    <linearGradient id="lensGloss" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.34" />
+      <stop offset="38%" stop-color="#FFFFFF" stop-opacity="0.06" />
+      <stop offset="52%" stop-color="#FFFFFF" stop-opacity="0.22" />
+      <stop offset="70%" stop-color="#FFFFFF" stop-opacity="0" />
+    </linearGradient>
+    <radialGradient id="vignette" cx="50%" cy="45%" r="72%">
+      <stop offset="55%" stop-color="#000000" stop-opacity="0" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.5" />
+    </radialGradient>
+    <radialGradient id="castShadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.42" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="goldSweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#C9A227" stop-opacity="0" />
+      <stop offset="50%" stop-color="#E8D7A5" stop-opacity="0.75" />
+      <stop offset="100%" stop-color="#C9A227" stop-opacity="0" />
+    </linearGradient>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" stitchTiles="stitch" />
+      <feColorMatrix type="saturate" values="0" />
+    </filter>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg)" />
+  <rect width="1600" height="1000" fill="url(#keyLight)" />
+  <rect width="1600" height="1000" fill="url(#vignette)" />
+  <rect width="1600" height="1000" filter="url(#grain)" opacity="0.05" />
+        <rect x="190.26285714285711" y="133.86666666666667" width="149.76" height="145.6" rx="4"
+              fill="#ffffff" fill-opacity="0.035" stroke="#ffffff" stroke-opacity="0.07" />
+        <g transform="translate(265.1428571428571 206.66666666666669) scale(0.26455299539170507)" opacity="0.85">
+          
+  <g>
+    <ellipse cx="0" cy="117" rx="217.56" ry="18" fill="url(#castShadow)" />
+    
+    <g transform="translate(122 0) scale(1 1)">
+      <path d="M -100 -60 Q -100 -75 -80 -75 H 84 Q 100 -75 100 -54 L 88 30 Q 76 75 -32 75 Q -96 75 -100 -60 Z" fill="url(#lensDark)" />
+      <path d="M -100 -60 Q -100 -75 -80 -75 H 84 Q 100 -75 100 -54 L 88 30 Q 76 75 -32 75 Q -96 75 -100 -60 Z" fill="url(#lensGloss)" opacity="0.55" />
+      <path d="M -100 -60 Q -100 -75 -80 -75 H 84 Q 100 -75 100 -54 L 88 30 Q 76 75 -32 75 Q -96 75 -100 -60 Z" fill="none" stroke="url(#rimGold)" stroke-width="10" stroke-linejoin="round" />
+      <path d="M -100 -60 Q -100 -75 -80 -75 H 84 Q 100 -75 100 -54 L 88 30 Q 76 75 -32 75 Q -96 75 -100 -60 Z" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1.5" transform="translate(0 -3)" />
+    </g>
+    
+    <g transform="translate(-122 0) scale(-1 1)">
+      <path d="M -100 -60 Q -100 -75 -80 -75 H 84 Q 100 -75 100 -54 L 88 30 Q 76 75 -32 75 Q -96 75 -100 -60 Z" fill="url(#lensDark)" />
+      <path d="M -100 -60 Q -100 -75 -80 -75 H 84 Q 100 -75 100 -54 L 88 30 Q 76 75 -32 75 Q -96 75 -100 -60 Z" fill="url(#lensGloss)" opacity="0.55" />
+      <path d="M -100 -60 Q -100 -75 -80 -75 H 84 Q 100 -75 100 -54 L 88 30 Q 76 75 -32 75 Q -96 75 -100 -60 Z" fill="none" stroke="url(#rimGold)" stroke-width="10" stroke-linejoin="round" />
+      <path d="M -100 -60 Q -100 -75 -80 -75 H 84 Q 100 -75 100 -54 L 88 30 Q 76 75 -32 75 Q -96 75 -100 -60 Z" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1.5" transform="translate(0 -3)" />
+    </g>
+    <path d="M -34 -24 Q 0 -51.00000000000001 34 -24"
+              fill="none" stroke="url(#rimGold)" stroke-width="8.5" stroke-linecap="round" />
+    
+    <g stroke="url(#rimGold)" stroke-width="8" stroke-linecap="round" fill="none">
+      <path d="M 222 -36 Q 288 -33 322 27" />
+      <path d="M -222 -36 Q -288 -33 -322 27" />
+    </g>
+    <g fill="#E8D7A5" opacity="0.9">
+      <circle cx="218" cy="-36" r="5.5" />
+      <circle cx="-218" cy="-36" r="5.5" />
+    </g>
+  </g>
+        </g>
+        <rect x="368.54857142857145" y="133.86666666666667" width="149.76" height="145.6" rx="4"
+              fill="#ffffff" fill-opacity="0.035" stroke="#ffffff" stroke-opacity="0.07" />
+        <g transform="translate(443.42857142857144 206.66666666666669) scale(0.26455299539170507)" opacity="0.85">
+          
+  <g>
+    <ellipse cx="0" cy="117" rx="217.56" ry="18" fill="url(#castShadow)" />
+    
+    <g transform="translate(122 0) scale(1 1)">
+      <path d="M -100 0 A 100 75 0 1 1 100 0 A 100 75 0 1 1 -100 0 Z" fill="url(#lensDark)" />
+      <path d="M -100 0 A 100 75 0 1 1 100 0 A 100 75 0 1 1 -100 0 Z" fill="url(#lensGloss)" opacity="0.55" />
+      <path d="M -100 0 A 100 75 0 1 1 100 0 A 100 75 0 1 1 -100 0 Z" fill="none" stroke="url(#rimSteel)" stroke-width="10" stroke-linejoin="round" />
+      <path d="M -100 0 A 100 75 0 1 1 100 0 A 100 75 0 1 1 -100 0 Z" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1.5" transform="translate(0 -3)" />
+    </g>
+    
+    <g transform="translate(-122 0) scale(-1 1)">
+      <path d="M -100 0 A 100 75 0 1 1 100 0 A 100 75 0 1 1 -100 0 Z" fill="url(#lensDark)" />
+      <path d="M -100 0 A 100 75 0 1 1 100 0 A 100 75 0 1 1 -100 0 Z" fill="url(#lensGloss)" opacity="0.55" />
+      <path d="M -100 0 A 100 75 0 1 1 100 0 A 100 75 0 1 1 -100 0 Z" fill="none" stroke="url(#rimSteel)" stroke-width="10" stroke-linejoin="round" />
+      <path d="M -100 0 A 100 75 0 1 1 100 0 A 100 75 0 1 1 -100 0 Z" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1.5" transform="translate(0 -3)" />
+    </g>
+    <path d="M -34 -24 Q 0 -51.00000000000001 34 -24"
+              fill="none" stroke="url(#rimSteel)" stroke-width="8.5" stroke-linecap="round" />
+    
+    <g stroke="url(#rimSteel)" stroke-width="8" stroke-linecap="round" fill="none">
+      <path d="M 222 -36 Q 288 -33 322 27" />
+      <path d="M -222 -36 Q -288 -33 -322 27" />
+    </g>
+    <g fill="#9a9a9a" opacity="0.9">
+      <circle cx="218" cy="-36" r="5.5" />
+      <circle cx="-218" cy="-36" r="5.5" />
+    </g>
+  </g>
+        </g>
+        <rect x="546.8342857142857" y="133.86666666666667" width="149.76" height="145.6" rx="4"
+              fill="#ffffff" fill-opacity="0.035" stroke="#ffffff" stroke-opacity="0.07" />
+        <g transform="translate(621.7142857142857 206.66666666666669) scale(0.26455299539170507)" opacity="0.85">
+          
+  <g>
+    <ellipse cx="0" cy="117" rx="217.56" ry="18" fill="url(#castShadow)" />
+    
+    <g transform="translate(122 0) scale(1 1)">
+      <path d="M -100 -42 Q -40 -72 52 -84.00000000000001 Q 106 -93 100 -39 Q 96 66 -20 75 Q -92 66 -100 -42 Z" fill="url(#lensDark)" />
+      <path d="M -100 -42 Q -40 -72 52 -84.00000000000001 Q 106 -93 100 -39 Q 96 66 -20 75 Q -92 66 -100 -42 Z" fill="url(#lensGloss)" opacity="0.55" />
+      <path d="M -100 -42 Q -40 -72 52 -84.00000000000001 Q 106 -93 100 -39 Q 96 66 -20 75 Q -92 66 -100 -42 Z" fill="none" stroke="url(#rimSteel)" stroke-width="10" stroke-linejoin="round" />
+      <path d="M -100 -42 Q -40 -72 52 -84.00000000000001 Q 106 -93 100 -39 Q 96 66 -20 75 Q -92 66 -100 -42 Z" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1.5" transform="translate(0 -3)" />
+    </g>
+    
+    <g transform="translate(-122 0) scale(-1 1)">
+      <path d="M -100 -42 Q -40 -72 52 -84.00000000000001 Q 106 -93 100 -39 Q 96 66 -20 75 Q -92 66 -100 -42 Z" fill="url(#lensDark)" />
+      <path d="M -100 -42 Q -40 -72 52 -84.00000000000001 Q 106 -93 100 -39 Q 96 66 -20 75 Q -92 66 -100 -42 Z" fill="url(#lensGloss)" opacity="0.55" />
+      <path d="M -100 -42 Q -40 -72 52 -84.00000000000001 Q 106 -93 100 -39 Q 96 66 -20 75 Q -92 66 -100 -42 Z" fill="none" stroke="url(#rimSteel)" stroke-width="10" stroke-linejoin="round" />
+      <path d="M -100 -42 Q -40 -72 52 -84.00000000000001 Q 106 -93 100 -39 Q 96 66 -20 75 Q -92 66 -100 -42 Z" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1.5" transform="translate(0 -3)" />
+    </g>
+    <path d="M -34 -24 Q 0 -51.00000000000001 34 -24"
+              fill="none" stroke="url(#rimSteel)" stroke-width="8.5" stroke-linecap="round" />
+    
+    <g stroke="url(#rimSteel)" stroke-width="8" stroke-linecap="round" fill="none">
+      <path d="M 222 -36 Q 288 -33 322 27" />
+      <path d="M -222 -36 Q -288 -33 -322 27" />
+    </g>
+    <g fill="#9a9a9a" opacity="0.9">
+      <circle cx="218" cy="-36" r="5.5" />
+      <circle cx="-218" cy="-36" r="5.5" />
+    </g>
+  </g>
+        </g>
+        <rect x="725.12" y="133.86666666666667" width="149.76" height="145.6" rx="4"
+              fill="#ffffff" fill-opacity="0.035" stroke="#ffffff" stroke-opacity="0.07" />
+        <g transform="translate(800 206.66666666666669) scale(0.26455299539170507)" opacity="0.85">
+          
+  <g>
+    <ellipse cx="0" cy="117" rx="217.56" ry="18" fill="url(#castShadow)" />
+    
+    <g transform="translate(122 0) scale(1 1)">
+      <path d="M -100 -66 Q -92 -75 -68 -75 H 88 Q 100 -75 100 -51 Q 96 72 -16 75 Q -84 63 -100 -66 Z" fill="url(#lensDark)" />
+      <path d="M -100 -66 Q -92 -75 -68 -75 H 88 Q 100 -75 100 -51 Q 96 72 -16 75 Q -84 63 -100 -66 Z" fill="url(#lensGloss)" opacity="0.55" />
+      <path d="M -100 -66 Q -92 -75 -68 -75 H 88 Q 100 -75 100 -51 Q 96 72 -16 75 Q -84 63 -100 -66 Z" fill="none" stroke="url(#rimGold)" stroke-width="10" stroke-linejoin="round" />
+      <path d="M -100 -66 Q -92 -75 -68 -75 H 88 Q 100 -75 100 -51 Q 96 72 -16 75 Q -84 63 -100 -66 Z" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1.5" transform="translate(0 -3)" />
+    </g>
+    
+    <g transform="translate(-122 0) scale(-1 1)">
+      <path d="M -100 -66 Q -92 -75 -68 -75 H 88 Q 100 -75 100 -51 Q 96 72 -16 75 Q -84 63 -100 -66 Z" fill="url(#lensDark)" />
+      <path d="M -100 -66 Q -92 -75 -68 -75 H 88 Q 100 -75 100 -51 Q 96 72 -16 75 Q -84 63 -100 -66 Z" fill="url(#lensGloss)" opacity="0.55" />
+      <path d="M -100 -66 Q -92 -75 -68 -75 H 88 Q 100 -75 100 -51 Q 96 72 -16 75 Q -84 63 -100 -66 Z" fill="none" stroke="url(#rimGold)" stroke-width="10" stroke-linejoin="round" />
+      <path d="M -100 -66 Q -92 -75 -68 -75 H 88 Q 100 -75 100 -51 Q 96 72 -16 75 Q -84 63 -100 -66 Z" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1.5" transform="translate(0 -3)" />
+    </g>
+    <path d="M -34 -24 Q 0 -51.00000000000001 34 -24"
+              fill="none" stroke="url(#rimGold)" stroke-width="8.5" stroke-linecap="round" />
+    
+    <g stroke="url(#rimGold)" stroke-width="8" stroke-linecap="round" fill="none">
+      <path d="M 222 -36 Q 288 -33 322 27" />
+      <path d="M -222 -36 Q -288 -33 -322 27" />
+    </g>
+    <g fill="#E8D7A5" opacity="0.9">
+      <circle cx="218" cy="-36" r="5.5" />
+      <circle cx="-218" cy="-36" r="5.5" />
+    </g>
+  </g>
+        </g>
+        <rect x="903.4057142857142" y="133.86666666666667" width="149.76" height="145.6" rx="4"
+              fill="#ffffff" fill-opacity="0.035" stroke="#ffffff" stroke-opacity="0.07" />
+        <g transform="translate(978.2857142857142 206.66666666666669) scale(0.26455299539170507)" opacity="0.85">
+          
+  <g>
+    <ellipse cx="0" cy="117" rx="217.56" ry="18" fill="url(#castShadow)" />
+    
+    <g transform="translate(122 0) scale(1 1)">
+      <path d="M -79 -75 H 79 Q 100 -75 100 -54 V 54 Q 100 75 79 75 H -79 Q -100 75 -100 54 V -54 Q -100 -75 -79 -75 Z" fill="url(#lensDark)" />
+      <path d="M -79 -75 H 79 Q 100 -75 100 -54 V 54 Q 100 75 79 75 H -79 Q -100 75 -100 54 V -54 Q -100 -75 -79 -75 Z" fill="url(#lensGloss)" opacity="0.55" />
+      <path d="M -79 -75 H 79 Q 100 -75 100 -54 V 54 Q 100 75 79 75 H -79 Q -100 75 -100 54 V -54 Q -100 -75 -79 -75 Z" fill="none" stroke="url(#rimSteel)" stroke-width="10" stroke-linejoin="round" />
+      <path d="M -79 -75 H 79 Q 100 -75 100 -54 V 54 Q 100 75 79 75 H -79 Q -100 75 -100 54 V -54 Q -100 -75 -79 -75 Z" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1.5" transform="translate(0 -3)" />
+    </g>
+    
+    <g transform="translate(-122 0) scale(-1 1)">
+      <path d="M -79 -75 H 79 Q 100 -75 100 -54 V 54 Q 100 75 79 75 H -79 Q -100 75 -100 54 V -54 Q -100 -75 -79 -75 Z" fill="url(#lensDark)" />
+      <path d="M -79 -75 H 79 Q 100 -75 100 -54 V 54 Q 100 75 79 75 H -79 Q -100 75 -100 54 V -54 Q -100 -75 -79 -75 Z" fill="url(#lensGloss)" opacity="0.55" />
+      <path d="M -79 -75 H 79 Q 100 -75 100 -54 V 54 Q 100 75 79 75 H -79 Q -100 75 -100 54 V -54 Q -100 -75 -79 -75 Z" fill="none" stroke="url(#rimSteel)" stroke-width="10" stroke-linejoin="round" />
+      <path d="M -79 -75 H 79 Q 100 -75 100 -54 V 54 Q 100 75 79 75 H -79 Q -100 75 -100 54 V -54 Q -100 -75 -79 -75 Z" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1.5" transform="translate(0 -3)" />
+    </g>
+    <path d="M -34 -24 Q 0 -51.00000000000001 34 -24"
+              fill="none" stroke="url(#rimSteel)" stroke-width="8.5" stroke-linecap="round" />
+    
+    <g stroke="url(#rimSteel)" stroke-width="8" stroke-linecap="round" fill="none">
+      <path d="M 222 -36 Q 288 -33 322 27" />
+      <path d="M -222 -36 Q -288 -33 -322 27" />
+    </g>
+    <g fill="#9a9a9a" opacity="0.9">
+      <circle cx="218" cy="-36" r="5.5" />
+      <circle cx="-218" cy="-36" r="5.5" />
+    </g>
+  </g>
+        </g>
+        <rect x="1081.6914285714283" y="133.86666666666667" width="149.76" height="145.6" rx="4"
+              fill="#ffffff" fill-opacity="0.035" stroke="#ffffff" stroke-opacity="0.07" />
+        <g transform="translate(1156.5714285714284 206.66666666666669) scale(0.26455299539170507)" opacity="0.85">
+          
+  <g>
+    <ellipse cx="0" cy="117" rx="217.56" ry="18" fill="url(#castShadow)" />
+    
+    <g transform="translate(122 0) scale(1 1)">
+      <path d="M -100 -39 Q -88 -75 0 -75 Q 92 -75 100 -36 Q 104 75 0 75 Q -104 75 -100 -39 Z" fill="url(#lensDark)" />
+      <path d="M -100 -39 Q -88 -75 0 -75 Q 92 -75 100 -36 Q 104 75 0 75 Q -104 75 -100 -39 Z" fill="url(#lensGloss)" opacity="0.55" />
+      <path d="M -100 -39 Q -88 -75 0 -75 Q 92 -75 100 -36 Q 104 75 0 75 Q -104 75 -100 -39 Z" fill="none" stroke="url(#rimSteel)" stroke-width="10" stroke-linejoin="round" />
+      <path d="M -100 -39 Q -88 -75 0 -75 Q 92 -75 100 -36 Q 104 75 0 75 Q -104 75 -100 -39 Z" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1.5" transform="translate(0 -3)" />
+    </g>
+    
+    <g transform="translate(-122 0) scale(-1 1)">
+      <path d="M -100 -39 Q -88 -75 0 -75 Q 92 -75 100 -36 Q 104 75 0 75 Q -104 75 -100 -39 Z" fill="url(#lensDark)" />
+      <path d="M -100 -39 Q -88 -75 0 -75 Q 92 -75 100 -36 Q 104 75 0 75 Q -104 75 -100 -39 Z" fill="url(#lensGloss)" opacity="0.55" />
+      <path d="M -100 -39 Q -88 -75 0 -75 Q 92 -75 100 -36 Q 104 75 0 75 Q -104 75 -100 -39 Z" fill="none" stroke="url(#rimSteel)" stroke-width="10" stroke-linejoin="round" />
+      <path d="M -100 -39 Q -88 -75 0 -75 Q 92 -75 100 -36 Q 104 75 0 75 Q -104 75 -100 -39 Z" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1.5" transform="translate(0 -3)" />
+    </g>
+    <path d="M -34 -24 Q 0 -51.00000000000001 34 -24"
+              fill="none" stroke="url(#rimSteel)" stroke-width="8.5" stroke-linecap="round" />
+    
+    <g stroke="url(#rimSteel)" stroke-width="8" stroke-linecap="round" fill="none">
+      <path d="M 222 -36 Q 288 -33 322 27" />
+      <path d="M -222 -36 Q -288 -33 -322 27" />
+    </g>
+    <g fill="#9a9a9a" opacity="0.9">
+      <circle cx="218" cy="-36" r="5.5" />
+      <circle cx="-218" cy="-36" r="5.5" />
+    </g>
+  </g>
+        </g>
+        <rect x="1259.977142857143" y="133.86666666666667" width="149.76" height="145.6" rx="4"
+              fill="#ffffff" fill-opacity="0.035" stroke="#ffffff" stroke-opacity="0.07" />
+        <g transform="translate(1334.857142857143 206.66666666666669) scale(0.26455299539170507)" opacity="0.85">
+          
+  <g>
+    <ellipse cx="0" cy="117" rx="217.56" ry="18" fill="url(#castShadow)" />
+    
+    <g transform="translate(122 0) scale(1 1)">
+      <path d="M -72 -75 H 86 L 100 -6 L 60 75 H -50 L -100 -15 Z" fill="url(#lensDark)" />
+      <path d="M -72 -75 H 86 L 100 -6 L 60 75 H -50 L -100 -15 Z" fill="url(#lensGloss)" opacity="0.55" />
+      <path d="M -72 -75 H 86 L 100 -6 L 60 75 H -50 L -100 -15 Z" fill="none" stroke="url(#rimGold)" stroke-width="10" stroke-linejoin="round" />
+      <path d="M -72 -75 H 86 L 100 -6 L 60 75 H -50 L -100 -15 Z" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1.5" transform="translate(0 -3)" />
+    </g>
+    
+    <g transform="translate(-122 0) scale(-1 1)">
+      <path d="M -72 -75 H 86 L 100 -6 L 60 75 H -50 L -100 -15 Z" fill="url(#lensDark)" />
+      <path d="M -72 -75 H 86 L 100 -6 L 60 75 H -50 L -100 -15 Z" fill="url(#lensGloss)" opacity="0.55" />
+      <path d="M -72 -75 H 86 L 100 -6 L 60 75 H -50 L -100 -15 Z" fill="none" stroke="url(#rimGold)" stroke-width="10" stroke-linejoin="round" />
+      <path d="M -72 -75 H 86 L 100 -6 L 60 75 H -50 L -100 -15 Z" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1.5" transform="translate(0 -3)" />
+    </g>
+    <path d="M -34 -24 Q 0 -51.00000000000001 34 -24"
+              fill="none" stroke="url(#rimGold)" stroke-width="8.5" stroke-linecap="round" />
+    
+    <g stroke="url(#rimGold)" stroke-width="8" stroke-linecap="round" fill="none">
+      <path d="M 222 -36 Q 288 -33 322 27" />
+      <path d="M -222 -36 Q -288 -33 -322 27" />
+    </g>
+    <g fill="#E8D7A5" opacity="0.9">
+      <circle cx="218" cy="-36" r="5.5" />
+      <circle cx="-218" cy="-36" r="5.5" />
+    </g>
+  </g>
+        </g>
+        <rect x="190.26285714285711" y="307.20000000000005" width="149.76" height="145.6" rx="4"
+              fill="#ffffff" fill-opacity="0.035" stroke="#ffffff" stroke-opacity="0.07" />
+        <g transform="translate(265.1428571428571 380.00000000000006) scale(0.26455299539170507)" opacity="0.85">
+          
+  <g>
+    <ellipse cx="0" cy="117" rx="217.56" ry="18" fill="url(#castShadow)" />
+    
+    <g transform="translate(122 0) scale(1 1)">
+      <path d="M -100 -60 Q -100 -75 -80 -75 H 84 Q 100 -75 100 -54 L 88 30 Q 76 75 -32 75 Q -96 75 -100 -60 Z" fill="url(#lensDark)" />
+      <path d="M -100 -60 Q -100 -75 -80 -75 H 84 Q 100 -75 100 -54 L 88 30 Q 76 75 -32 75 Q -96 75 -100 -60 Z" fill="url(#lensGloss)" opacity="0.55" />
+      <path d="M -100 -60 Q -100 -75 -80 -75 H 84 Q 100 -75 100 -54 L 88 30 Q 76 75 -32 75 Q -96 75 -100 -60 Z" fill="none" stroke="url(#rimSteel)" stroke-width="10" stroke-linejoin="round" />
+      <path d="M -100 -60 Q -100 -75 -80 -75 H 84 Q 100 -75 100 -54 L 88 30 Q 76 75 -32 75 Q -96 75 -100 -60 Z" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1.5" transform="translate(0 -3)" />
+    </g>
+    
+    <g transform="translate(-122 0) scale(-1 1)">
+      <path d="M -100 -60 Q -100 -75 -80 -75 H 84 Q 100 -75 100 -54 L 88 30 Q 76 75 -32 75 Q -96 75 -100 -60 Z" fill="url(#lensDark)" />
+      <path d="M -100 -60 Q -100 -75 -80 -75 H 84 Q 100 -75 100 -54 L 88 30 Q 76 75 -32 75 Q -96 75 -100 -60 Z" fill="url(#lensGloss)" opacity="0.55" />
+      <path d="M -100 -60 Q -100 -75 -80 -75 H 84 Q 100 -75 100 -54 L 88 30 Q 76 75 -32 75 Q -96 75 -100 -60 Z" fill="none" stroke="url(#rimSteel)" stroke-width="10" stroke-linejoin="round" />
+      <path d="M -100 -60 Q -100 -75 -80 -75 H 84 Q 100 -75 100 -54 L 88 30 Q 76 75 -32 75 Q -96 75 -100 -60 Z" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1.5" transform="translate(0 -3)" />
+    </g>
+    <path d="M -34 -24 Q 0 -51.00000000000001 34 -24"
+              fill="none" stroke="url(#rimSteel)" stroke-width="8.5" stroke-linecap="round" />
+    
+    <g stroke="url(#rimSteel)" stroke-width="8" stroke-linecap="round" fill="none">
+      <path d="M 222 -36 Q 288 -33 322 27" />
+      <path d="M -222 -36 Q -288 -33 -322 27" />
+    </g>
+    <g fill="#9a9a9a" opacity="0.9">
+      <circle cx="218" cy="-36" r="5.5" />
+      <circle cx="-218" cy="-36" r="5.5" />
+    </g>
+  </g>
+        </g>
+        <rect x="368.54857142857145" y="307.20000000000005" width="149.76" height="145.6" rx="4"
+              fill="#ffffff" fill-opacity="0.035" stroke="#ffffff" stroke-opacity="0.07" />
+        <g transform="translate(443.42857142857144 380.00000000000006) scale(0.26455299539170507)" opacity="0.85">
+          
+  <g>
+    <ellipse cx="0" cy="117" rx="217.56" ry="18" fill="url(#castShadow)" />
+    
+    <g transform="translate(122 0) scale(1 1)">
+      <path d="M -100 0 A 100 75 0 1 1 100 0 A 100 75 0 1 1 -100 0 Z" fill="url(#lensDark)" />
+      <path d="M -100 0 A 100 75 0 1 1 100 0 A 100 75 0 1 1 -100 0 Z" fill="url(#lensGloss)" opacity="0.55" />
+      <path d="M -100 0 A 100 75 0 1 1 100 0 A 100 75 0 1 1 -100 0 Z" fill="none" stroke="url(#rimSteel)" stroke-width="10" stroke-linejoin="round" />
+      <path d="M -100 0 A 100 75 0 1 1 100 0 A 100 75 0 1 1 -100 0 Z" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1.5" transform="translate(0 -3)" />
+    </g>
+    
+    <g transform="translate(-122 0) scale(-1 1)">
+      <path d="M -100 0 A 100 75 0 1 1 100 0 A 100 75 0 1 1 -100 0 Z" fill="url(#lensDark)" />
+      <path d="M -100 0 A 100 75 0 1 1 100 0 A 100 75 0 1 1 -100 0 Z" fill="url(#lensGloss)" opacity="0.55" />
+      <path d="M -100 0 A 100 75 0 1 1 100 0 A 100 75 0 1 1 -100 0 Z" fill="none" stroke="url(#rimSteel)" stroke-width="10" stroke-linejoin="round" />
+      <path d="M -100 0 A 100 75 0 1 1 100 0 A 100 75 0 1 1 -100 0 Z" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1.5" transform="translate(0 -3)" />
+    </g>
+    <path d="M -34 -24 Q 0 -51.00000000000001 34 -24"
+              fill="none" stroke="url(#rimSteel)" stroke-width="8.5" stroke-linecap="round" />
+    
+    <g stroke="url(#rimSteel)" stroke-width="8" stroke-linecap="round" fill="none">
+      <path d="M 222 -36 Q 288 -33 322 27" />
+      <path d="M -222 -36 Q -288 -33 -322 27" />
+    </g>
+    <g fill="#9a9a9a" opacity="0.9">
+      <circle cx="218" cy="-36" r="5.5" />
+      <circle cx="-218" cy="-36" r="5.5" />
+    </g>
+  </g>
+        </g>
+        <rect x="546.8342857142857" y="307.20000000000005" width="149.76" height="145.6" rx="4"
+              fill="#ffffff" fill-opacity="0.035" stroke="#ffffff" stroke-opacity="0.07" />
+        <g transform="translate(621.7142857142857 380.00000000000006) scale(0.26455299539170507)" opacity="0.85">
+          
+  <g>
+    <ellipse cx="0" cy="117" rx="217.56" ry="18" fill="url(#castShadow)" />
+    
+    <g transform="translate(122 0) scale(1 1)">
+      <path d="M -100 -42 Q -40 -72 52 -84.00000000000001 Q 106 -93 100 -39 Q 96 66 -20 75 Q -92 66 -100 -42 Z" fill="url(#lensDark)" />
+      <path d="M -100 -42 Q -40 -72 52 -84.00000000000001 Q 106 -93 100 -39 Q 96 66 -20 75 Q -92 66 -100 -42 Z" fill="url(#lensGloss)" opacity="0.55" />
+      <path d="M -100 -42 Q -40 -72 52 -84.00000000000001 Q 106 -93 100 -39 Q 96 66 -20 75 Q -92 66 -100 -42 Z" fill="none" stroke="url(#rimGold)" stroke-width="10" stroke-linejoin="round" />
+      <path d="M -100 -42 Q -40 -72 52 -84.00000000000001 Q 106 -93 100 -39 Q 96 66 -20 75 Q -92 66 -100 -42 Z" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1.5" transform="translate(0 -3)" />
+    </g>
+    
+    <g transform="translate(-122 0) scale(-1 1)">
+      <path d="M -100 -42 Q -40 -72 52 -84.00000000000001 Q 106 -93 100 -39 Q 96 66 -20 75 Q -92 66 -100 -42 Z" fill="url(#lensDark)" />
+      <path d="M -100 -42 Q -40 -72 52 -84.00000000000001 Q 106 -93 100 -39 Q 96 66 -20 75 Q -92 66 -100 -42 Z" fill="url(#lensGloss)" opacity="0.55" />
+      <path d="M -100 -42 Q -40 -72 52 -84.00000000000001 Q 106 -93 100 -39 Q 96 66 -20 75 Q -92 66 -100 -42 Z" fill="none" stroke="url(#rimGold)" stroke-width="10" stroke-linejoin="round" />
+      <path d="M -100 -42 Q -40 -72 52 -84.00000000000001 Q 106 -93 100 -39 Q 96 66 -20 75 Q -92 66 -100 -42 Z" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1.5" transform="translate(0 -3)" />
+    </g>
+    <path d="M -34 -24 Q 0 -51.00000000000001 34 -24"
+              fill="none" stroke="url(#rimGold)" stroke-width="8.5" stroke-linecap="round" />
+    
+    <g stroke="url(#rimGold)" stroke-width="8" stroke-linecap="round" fill="none">
+      <path d="M 222 -36 Q 288 -33 322 27" />
+      <path d="M -222 -36 Q -288 -33 -322 27" />
+    </g>
+    <g fill="#E8D7A5" opacity="0.9">
+      <circle cx="218" cy="-36" r="5.5" />
+      <circle cx="-218" cy="-36" r="5.5" />
+    </g>
+  </g>
+        </g>
+        <rect x="725.12" y="307.20000000000005" width="149.76" height="145.6" rx="4"
+              fill="#ffffff" fill-opacity="0.035" stroke="#ffffff" stroke-opacity="0.07" />
+        <g transform="translate(800 380.00000000000006) scale(0.26455299539170507)" opacity="0.85">
+          
+  <g>
+    <ellipse cx="0" cy="117" rx="217.56" ry="18" fill="url(#castShadow)" />
+    
+    <g transform="translate(122 0) scale(1 1)">
+      <path d="M -100 -66 Q -92 -75 -68 -75 H 88 Q 100 -75 100 -51 Q 96 72 -16 75 Q -84 63 -100 -66 Z" fill="url(#lensDark)" />
+      <path d="M -100 -66 Q -92 -75 -68 -75 H 88 Q 100 -75 100 -51 Q 96 72 -16 75 Q -84 63 -100 -66 Z" fill="url(#lensGloss)" opacity="0.55" />
+      <path d="M -100 -66 Q -92 -75 -68 -75 H 88 Q 100 -75 100 -51 Q 96 72 -16 75 Q -84 63 -100 -66 Z" fill="none" stroke="url(#rimSteel)" stroke-width="10" stroke-linejoin="round" />
+      <path d="M -100 -66 Q -92 -75 -68 -75 H 88 Q 100 -75 100 -51 Q 96 72 -16 75 Q -84 63 -100 -66 Z" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1.5" transform="translate(0 -3)" />
+    </g>
+    
+    <g transform="translate(-122 0) scale(-1 1)">
+      <path d="M -100 -66 Q -92 -75 -68 -75 H 88 Q 100 -75 100 -51 Q 96 72 -16 75 Q -84 63 -100 -66 Z" fill="url(#lensDark)" />
+      <path d="M -100 -66 Q -92 -75 -68 -75 H 88 Q 100 -75 100 -51 Q 96 72 -16 75 Q -84 63 -100 -66 Z" fill="url(#lensGloss)" opacity="0.55" />
+      <path d="M -100 -66 Q -92 -75 -68 -75 H 88 Q 100 -75 100 -51 Q 96 72 -16 75 Q -84 63 -100 -66 Z" fill="none" stroke="url(#rimSteel)" stroke-width="10" stroke-linejoin="round" />
+      <path d="M -100 -66 Q -92 -75 -68 -75 H 88 Q 100 -75 100 -51 Q 96 72 -16 75 Q -84 63 -100 -66 Z" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1.5" transform="translate(0 -3)" />
+    </g>
+    <path d="M -34 -24 Q 0 -51.00000000000001 34 -24"
+              fill="none" stroke="url(#rimSteel)" stroke-width="8.5" stroke-linecap="round" />
+    
+    <g stroke="url(#rimSteel)" stroke-width="8" stroke-linecap="round" fill="none">
+      <path d="M 222 -36 Q 288 -33 322 27" />
+      <path d="M -222 -36 Q -288 -33 -322 27" />
+    </g>
+    <g fill="#9a9a9a" opacity="0.9">
+      <circle cx="218" cy="-36" r="5.5" />
+      <circle cx="-218" cy="-36" r="5.5" />
+    </g>
+  </g>
+        </g>
+        <rect x="903.4057142857142" y="307.20000000000005" width="149.76" height="145.6" rx="4"
+              fill="#ffffff" fill-opacity="0.035" stroke="#ffffff" stroke-opacity="0.07" />
+        <g transform="translate(978.2857142857142 380.00000000000006) scale(0.26455299539170507)" opacity="0.85">
+          
+  <g>
+    <ellipse cx="0" cy="117" rx="217.56" ry="18" fill="url(#castShadow)" />
+    
+    <g transform="translate(122 0) scale(1 1)">
+      <path d="M -79 -75 H 79 Q 100 -75 100 -54 V 54 Q 100 75 79 75 H -79 Q -100 75 -100 54 V -54 Q -100 -75 -79 -75 Z" fill="url(#lensDark)" />
+      <path d="M -79 -75 H 79 Q 100 -75 100 -54 V 54 Q 100 75 79 75 H -79 Q -100 75 -100 54 V -54 Q -100 -75 -79 -75 Z" fill="url(#lensGloss)" opacity="0.55" />
+      <path d="M -79 -75 H 79 Q 100 -75 100 -54 V 54 Q 100 75 79 75 H -79 Q -100 75 -100 54 V -54 Q -100 -75 -79 -75 Z" fill="none" stroke="url(#rimSteel)" stroke-width="10" stroke-linejoin="round" />
+      <path d="M -79 -75 H 79 Q 100 -75 100 -54 V 54 Q 100 75 79 75 H -79 Q -100 75 -100 54 V -54 Q -100 -75 -79 -75 Z" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1.5" transform="translate(0 -3)" />
+    </g>
+    
+    <g transform="translate(-122 0) scale(-1 1)">
+      <path d="M -79 -75 H 79 Q 100 -75 100 -54 V 54 Q 100 75 79 75 H -79 Q -100 75 -100 54 V -54 Q -100 -75 -79 -75 Z" fill="url(#lensDark)" />
+      <path d="M -79 -75 H 79 Q 100 -75 100 -54 V 54 Q 100 75 79 75 H -79 Q -100 75 -100 54 V -54 Q -100 -75 -79 -75 Z" fill="url(#lensGloss)" opacity="0.55" />
+      <path d="M -79 -75 H 79 Q 100 -75 100 -54 V 54 Q 100 75 79 75 H -79 Q -100 75 -100 54 V -54 Q -100 -75 -79 -75 Z" fill="none" stroke="url(#rimSteel)" stroke-width="10" stroke-linejoin="round" />
+      <path d="M -79 -75 H 79 Q 100 -75 100 -54 V 54 Q 100 75 79 75 H -79 Q -100 75 -100 54 V -54 Q -100 -75 -79 -75 Z" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1.5" transform="translate(0 -3)" />
+    </g>
+    <path d="M -34 -24 Q 0 -51.00000000000001 34 -24"
+              fill="none" stroke="url(#rimSteel)" stroke-width="8.5" stroke-linecap="round" />
+    
+    <g stroke="url(#rimSteel)" stroke-width="8" stroke-linecap="round" fill="none">
+      <path d="M 222 -36 Q 288 -33 322 27" />
+      <path d="M -222 -36 Q -288 -33 -322 27" />
+    </g>
+    <g fill="#9a9a9a" opacity="0.9">
+      <circle cx="218" cy="-36" r="5.5" />
+      <circle cx="-218" cy="-36" r="5.5" />
+    </g>
+  </g>
+        </g>
+        <rect x="1081.6914285714283" y="307.20000000000005" width="149.76" height="145.6" rx="4"
+              fill="#ffffff" fill-opacity="0.035" stroke="#ffffff" stroke-opacity="0.07" />
+        <g transform="translate(1156.5714285714284 380.00000000000006) scale(0.26455299539170507)" opacity="0.85">
+          
+  <g>
+    <ellipse cx="0" cy="117" rx="217.56" ry="18" fill="url(#castShadow)" />
+    
+    <g transform="translate(122 0) scale(1 1)">
+      <path d="M -100 -39 Q -88 -75 0 -75 Q 92 -75 100 -36 Q 104 75 0 75 Q -104 75 -100 -39 Z" fill="url(#lensDark)" />
+      <path d="M -100 -39 Q -88 -75 0 -75 Q 92 -75 100 -36 Q 104 75 0 75 Q -104 75 -100 -39 Z" fill="url(#lensGloss)" opacity="0.55" />
+      <path d="M -100 -39 Q -88 -75 0 -75 Q 92 -75 100 -36 Q 104 75 0 75 Q -104 75 -100 -39 Z" fill="none" stroke="url(#rimGold)" stroke-width="10" stroke-linejoin="round" />
+      <path d="M -100 -39 Q -88 -75 0 -75 Q 92 -75 100 -36 Q 104 75 0 75 Q -104 75 -100 -39 Z" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1.5" transform="translate(0 -3)" />
+    </g>
+    
+    <g transform="translate(-122 0) scale(-1 1)">
+      <path d="M -100 -39 Q -88 -75 0 -75 Q 92 -75 100 -36 Q 104 75 0 75 Q -104 75 -100 -39 Z" fill="url(#lensDark)" />
+      <path d="M -100 -39 Q -88 -75 0 -75 Q 92 -75 100 -36 Q 104 75 0 75 Q -104 75 -100 -39 Z" fill="url(#lensGloss)" opacity="0.55" />
+      <path d="M -100 -39 Q -88 -75 0 -75 Q 92 -75 100 -36 Q 104 75 0 75 Q -104 75 -100 -39 Z" fill="none" stroke="url(#rimGold)" stroke-width="10" stroke-linejoin="round" />
+      <path d="M -100 -39 Q -88 -75 0 -75 Q 92 -75 100 -36 Q 104 75 0 75 Q -104 75 -100 -39 Z" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1.5" transform="translate(0 -3)" />
+    </g>
+    <path d="M -34 -24 Q 0 -51.00000000000001 34 -24"
+              fill="none" stroke="url(#rimGold)" stroke-width="8.5" stroke-linecap="round" />
+    
+    <g stroke="url(#rimGold)" stroke-width="8" stroke-linecap="round" fill="none">
+      <path d="M 222 -36 Q 288 -33 322 27" />
+      <path d="M -222 -36 Q -288 -33 -322 27" />
+    </g>
+    <g fill="#E8D7A5" opacity="0.9">
+      <circle cx="218" cy="-36" r="5.5" />
+      <circle cx="-218" cy="-36" r="5.5" />
+    </g>
+  </g>
+        </g>
+        <rect x="1259.977142857143" y="307.20000000000005" width="149.76" height="145.6" rx="4"
+              fill="#ffffff" fill-opacity="0.035" stroke="#ffffff" stroke-opacity="0.07" />
+        <g transform="translate(1334.857142857143 380.00000000000006) scale(0.26455299539170507)" opacity="0.85">
+          
+  <g>
+    <ellipse cx="0" cy="117" rx="217.56" ry="18" fill="url(#castShadow)" />
+    
+    <g transform="translate(122 0) scale(1 1)">
+      <path d="M -72 -75 H 86 L 100 -6 L 60 75 H -50 L -100 -15 Z" fill="url(#lensDark)" />
+      <path d="M -72 -75 H 86 L 100 -6 L 60 75 H -50 L -100 -15 Z" fill="url(#lensGloss)" opacity="0.55" />
+      <path d="M -72 -75 H 86 L 100 -6 L 60 75 H -50 L -100 -15 Z" fill="none" stroke="url(#rimSteel)" stroke-width="10" stroke-linejoin="round" />
+      <path d="M -72 -75 H 86 L 100 -6 L 60 75 H -50 L -100 -15 Z" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1.5" transform="translate(0 -3)" />
+    </g>
+    
+    <g transform="translate(-122 0) scale(-1 1)">
+      <path d="M -72 -75 H 86 L 100 -6 L 60 75 H -50 L -100 -15 Z" fill="url(#lensDark)" />
+      <path d="M -72 -75 H 86 L 100 -6 L 60 75 H -50 L -100 -15 Z" fill="url(#lensGloss)" opacity="0.55" />
+      <path d="M -72 -75 H 86 L 100 -6 L 60 75 H -50 L -100 -15 Z" fill="none" stroke="url(#rimSteel)" stroke-width="10" stroke-linejoin="round" />
+      <path d="M -72 -75 H 86 L 100 -6 L 60 75 H -50 L -100 -15 Z" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1.5" transform="translate(0 -3)" />
+    </g>
+    <path d="M -34 -24 Q 0 -51.00000000000001 34 -24"
+              fill="none" stroke="url(#rimSteel)" stroke-width="8.5" stroke-linecap="round" />
+    
+    <g stroke="url(#rimSteel)" stroke-width="8" stroke-linecap="round" fill="none">
+      <path d="M 222 -36 Q 288 -33 322 27" />
+      <path d="M -222 -36 Q -288 -33 -322 27" />
+    </g>
+    <g fill="#9a9a9a" opacity="0.9">
+      <circle cx="218" cy="-36" r="5.5" />
+      <circle cx="-218" cy="-36" r="5.5" />
+    </g>
+  </g>
+        </g>
+        <rect x="190.26285714285711" y="480.53333333333336" width="149.76" height="145.6" rx="4"
+              fill="#ffffff" fill-opacity="0.035" stroke="#ffffff" stroke-opacity="0.07" />
+        <g transform="translate(265.1428571428571 553.3333333333334) scale(0.26455299539170507)" opacity="0.85">
+          
+  <g>
+    <ellipse cx="0" cy="117" rx="217.56" ry="18" fill="url(#castShadow)" />
+    
+    <g transform="translate(122 0) scale(1 1)">
+      <path d="M -100 -60 Q -100 -75 -80 -75 H 84 Q 100 -75 100 -54 L 88 30 Q 76 75 -32 75 Q -96 75 -100 -60 Z" fill="url(#lensDark)" />
+      <path d="M -100 -60 Q -100 -75 -80 -75 H 84 Q 100 -75 100 -54 L 88 30 Q 76 75 -32 75 Q -96 75 -100 -60 Z" fill="url(#lensGloss)" opacity="0.55" />
+      <path d="M -100 -60 Q -100 -75 -80 -75 H 84 Q 100 -75 100 -54 L 88 30 Q 76 75 -32 75 Q -96 75 -100 -60 Z" fill="none" stroke="url(#rimSteel)" stroke-width="10" stroke-linejoin="round" />
+      <path d="M -100 -60 Q -100 -75 -80 -75 H 84 Q 100 -75 100 -54 L 88 30 Q 76 75 -32 75 Q -96 75 -100 -60 Z" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1.5" transform="translate(0 -3)" />
+    </g>
+    
+    <g transform="translate(-122 0) scale(-1 1)">
+      <path d="M -100 -60 Q -100 -75 -80 -75 H 84 Q 100 -75 100 -54 L 88 30 Q 76 75 -32 75 Q -96 75 -100 -60 Z" fill="url(#lensDark)" />
+      <path d="M -100 -60 Q -100 -75 -80 -75 H 84 Q 100 -75 100 -54 L 88 30 Q 76 75 -32 75 Q -96 75 -100 -60 Z" fill="url(#lensGloss)" opacity="0.55" />
+      <path d="M -100 -60 Q -100 -75 -80 -75 H 84 Q 100 -75 100 -54 L 88 30 Q 76 75 -32 75 Q -96 75 -100 -60 Z" fill="none" stroke="url(#rimSteel)" stroke-width="10" stroke-linejoin="round" />
+      <path d="M -100 -60 Q -100 -75 -80 -75 H 84 Q 100 -75 100 -54 L 88 30 Q 76 75 -32 75 Q -96 75 -100 -60 Z" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1.5" transform="translate(0 -3)" />
+    </g>
+    <path d="M -34 -24 Q 0 -51.00000000000001 34 -24"
+              fill="none" stroke="url(#rimSteel)" stroke-width="8.5" stroke-linecap="round" />
+    
+    <g stroke="url(#rimSteel)" stroke-width="8" stroke-linecap="round" fill="none">
+      <path d="M 222 -36 Q 288 -33 322 27" />
+      <path d="M -222 -36 Q -288 -33 -322 27" />
+    </g>
+    <g fill="#9a9a9a" opacity="0.9">
+      <circle cx="218" cy="-36" r="5.5" />
+      <circle cx="-218" cy="-36" r="5.5" />
+    </g>
+  </g>
+        </g>
+        <rect x="368.54857142857145" y="480.53333333333336" width="149.76" height="145.6" rx="4"
+              fill="#ffffff" fill-opacity="0.035" stroke="#ffffff" stroke-opacity="0.07" />
+        <g transform="translate(443.42857142857144 553.3333333333334) scale(0.26455299539170507)" opacity="0.85">
+          
+  <g>
+    <ellipse cx="0" cy="117" rx="217.56" ry="18" fill="url(#castShadow)" />
+    
+    <g transform="translate(122 0) scale(1 1)">
+      <path d="M -100 0 A 100 75 0 1 1 100 0 A 100 75 0 1 1 -100 0 Z" fill="url(#lensDark)" />
+      <path d="M -100 0 A 100 75 0 1 1 100 0 A 100 75 0 1 1 -100 0 Z" fill="url(#lensGloss)" opacity="0.55" />
+      <path d="M -100 0 A 100 75 0 1 1 100 0 A 100 75 0 1 1 -100 0 Z" fill="none" stroke="url(#rimGold)" stroke-width="10" stroke-linejoin="round" />
+      <path d="M -100 0 A 100 75 0 1 1 100 0 A 100 75 0 1 1 -100 0 Z" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1.5" transform="translate(0 -3)" />
+    </g>
+    
+    <g transform="translate(-122 0) scale(-1 1)">
+      <path d="M -100 0 A 100 75 0 1 1 100 0 A 100 75 0 1 1 -100 0 Z" fill="url(#lensDark)" />
+      <path d="M -100 0 A 100 75 0 1 1 100 0 A 100 75 0 1 1 -100 0 Z" fill="url(#lensGloss)" opacity="0.55" />
+      <path d="M -100 0 A 100 75 0 1 1 100 0 A 100 75 0 1 1 -100 0 Z" fill="none" stroke="url(#rimGold)" stroke-width="10" stroke-linejoin="round" />
+      <path d="M -100 0 A 100 75 0 1 1 100 0 A 100 75 0 1 1 -100 0 Z" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1.5" transform="translate(0 -3)" />
+    </g>
+    <path d="M -34 -24 Q 0 -51.00000000000001 34 -24"
+              fill="none" stroke="url(#rimGold)" stroke-width="8.5" stroke-linecap="round" />
+    
+    <g stroke="url(#rimGold)" stroke-width="8" stroke-linecap="round" fill="none">
+      <path d="M 222 -36 Q 288 -33 322 27" />
+      <path d="M -222 -36 Q -288 -33 -322 27" />
+    </g>
+    <g fill="#E8D7A5" opacity="0.9">
+      <circle cx="218" cy="-36" r="5.5" />
+      <circle cx="-218" cy="-36" r="5.5" />
+    </g>
+  </g>
+        </g>
+        <rect x="546.8342857142857" y="480.53333333333336" width="149.76" height="145.6" rx="4"
+              fill="#ffffff" fill-opacity="0.035" stroke="#ffffff" stroke-opacity="0.07" />
+        <g transform="translate(621.7142857142857 553.3333333333334) scale(0.26455299539170507)" opacity="0.85">
+          
+  <g>
+    <ellipse cx="0" cy="117" rx="217.56" ry="18" fill="url(#castShadow)" />
+    
+    <g transform="translate(122 0) scale(1 1)">
+      <path d="M -100 -42 Q -40 -72 52 -84.00000000000001 Q 106 -93 100 -39 Q 96 66 -20 75 Q -92 66 -100 -42 Z" fill="url(#lensDark)" />
+      <path d="M -100 -42 Q -40 -72 52 -84.00000000000001 Q 106 -93 100 -39 Q 96 66 -20 75 Q -92 66 -100 -42 Z" fill="url(#lensGloss)" opacity="0.55" />
+      <path d="M -100 -42 Q -40 -72 52 -84.00000000000001 Q 106 -93 100 -39 Q 96 66 -20 75 Q -92 66 -100 -42 Z" fill="none" stroke="url(#rimSteel)" stroke-width="10" stroke-linejoin="round" />
+      <path d="M -100 -42 Q -40 -72 52 -84.00000000000001 Q 106 -93 100 -39 Q 96 66 -20 75 Q -92 66 -100 -42 Z" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1.5" transform="translate(0 -3)" />
+    </g>
+    
+    <g transform="translate(-122 0) scale(-1 1)">
+      <path d="M -100 -42 Q -40 -72 52 -84.00000000000001 Q 106 -93 100 -39 Q 96 66 -20 75 Q -92 66 -100 -42 Z" fill="url(#lensDark)" />
+      <path d="M -100 -42 Q -40 -72 52 -84.00000000000001 Q 106 -93 100 -39 Q 96 66 -20 75 Q -92 66 -100 -42 Z" fill="url(#lensGloss)" opacity="0.55" />
+      <path d="M -100 -42 Q -40 -72 52 -84.00000000000001 Q 106 -93 100 -39 Q 96 66 -20 75 Q -92 66 -100 -42 Z" fill="none" stroke="url(#rimSteel)" stroke-width="10" stroke-linejoin="round" />
+      <path d="M -100 -42 Q -40 -72 52 -84.00000000000001 Q 106 -93 100 -39 Q 96 66 -20 75 Q -92 66 -100 -42 Z" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1.5" transform="translate(0 -3)" />
+    </g>
+    <path d="M -34 -24 Q 0 -51.00000000000001 34 -24"
+              fill="none" stroke="url(#rimSteel)" stroke-width="8.5" stroke-linecap="round" />
+    
+    <g stroke="url(#rimSteel)" stroke-width="8" stroke-linecap="round" fill="none">
+      <path d="M 222 -36 Q 288 -33 322 27" />
+      <path d="M -222 -36 Q -288 -33 -322 27" />
+    </g>
+    <g fill="#9a9a9a" opacity="0.9">
+      <circle cx="218" cy="-36" r="5.5" />
+      <circle cx="-218" cy="-36" r="5.5" />
+    </g>
+  </g>
+        </g>
+        <rect x="725.12" y="480.53333333333336" width="149.76" height="145.6" rx="4"
+              fill="#ffffff" fill-opacity="0.035" stroke="#ffffff" stroke-opacity="0.07" />
+        <g transform="translate(800 553.3333333333334) scale(0.26455299539170507)" opacity="0.85">
+          
+  <g>
+    <ellipse cx="0" cy="117" rx="217.56" ry="18" fill="url(#castShadow)" />
+    
+    <g transform="translate(122 0) scale(1 1)">
+      <path d="M -100 -66 Q -92 -75 -68 -75 H 88 Q 100 -75 100 -51 Q 96 72 -16 75 Q -84 63 -100 -66 Z" fill="url(#lensDark)" />
+      <path d="M -100 -66 Q -92 -75 -68 -75 H 88 Q 100 -75 100 -51 Q 96 72 -16 75 Q -84 63 -100 -66 Z" fill="url(#lensGloss)" opacity="0.55" />
+      <path d="M -100 -66 Q -92 -75 -68 -75 H 88 Q 100 -75 100 -51 Q 96 72 -16 75 Q -84 63 -100 -66 Z" fill="none" stroke="url(#rimSteel)" stroke-width="10" stroke-linejoin="round" />
+      <path d="M -100 -66 Q -92 -75 -68 -75 H 88 Q 100 -75 100 -51 Q 96 72 -16 75 Q -84 63 -100 -66 Z" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1.5" transform="translate(0 -3)" />
+    </g>
+    
+    <g transform="translate(-122 0) scale(-1 1)">
+      <path d="M -100 -66 Q -92 -75 -68 -75 H 88 Q 100 -75 100 -51 Q 96 72 -16 75 Q -84 63 -100 -66 Z" fill="url(#lensDark)" />
+      <path d="M -100 -66 Q -92 -75 -68 -75 H 88 Q 100 -75 100 -51 Q 96 72 -16 75 Q -84 63 -100 -66 Z" fill="url(#lensGloss)" opacity="0.55" />
+      <path d="M -100 -66 Q -92 -75 -68 -75 H 88 Q 100 -75 100 -51 Q 96 72 -16 75 Q -84 63 -100 -66 Z" fill="none" stroke="url(#rimSteel)" stroke-width="10" stroke-linejoin="round" />
+      <path d="M -100 -66 Q -92 -75 -68 -75 H 88 Q 100 -75 100 -51 Q 96 72 -16 75 Q -84 63 -100 -66 Z" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1.5" transform="translate(0 -3)" />
+    </g>
+    <path d="M -34 -24 Q 0 -51.00000000000001 34 -24"
+              fill="none" stroke="url(#rimSteel)" stroke-width="8.5" stroke-linecap="round" />
+    
+    <g stroke="url(#rimSteel)" stroke-width="8" stroke-linecap="round" fill="none">
+      <path d="M 222 -36 Q 288 -33 322 27" />
+      <path d="M -222 -36 Q -288 -33 -322 27" />
+    </g>
+    <g fill="#9a9a9a" opacity="0.9">
+      <circle cx="218" cy="-36" r="5.5" />
+      <circle cx="-218" cy="-36" r="5.5" />
+    </g>
+  </g>
+        </g>
+        <rect x="903.4057142857142" y="480.53333333333336" width="149.76" height="145.6" rx="4"
+              fill="#ffffff" fill-opacity="0.035" stroke="#ffffff" stroke-opacity="0.07" />
+        <g transform="translate(978.2857142857142 553.3333333333334) scale(0.26455299539170507)" opacity="0.85">
+          
+  <g>
+    <ellipse cx="0" cy="117" rx="217.56" ry="18" fill="url(#castShadow)" />
+    
+    <g transform="translate(122 0) scale(1 1)">
+      <path d="M -79 -75 H 79 Q 100 -75 100 -54 V 54 Q 100 75 79 75 H -79 Q -100 75 -100 54 V -54 Q -100 -75 -79 -75 Z" fill="url(#lensDark)" />
+      <path d="M -79 -75 H 79 Q 100 -75 100 -54 V 54 Q 100 75 79 75 H -79 Q -100 75 -100 54 V -54 Q -100 -75 -79 -75 Z" fill="url(#lensGloss)" opacity="0.55" />
+      <path d="M -79 -75 H 79 Q 100 -75 100 -54 V 54 Q 100 75 79 75 H -79 Q -100 75 -100 54 V -54 Q -100 -75 -79 -75 Z" fill="none" stroke="url(#rimGold)" stroke-width="10" stroke-linejoin="round" />
+      <path d="M -79 -75 H 79 Q 100 -75 100 -54 V 54 Q 100 75 79 75 H -79 Q -100 75 -100 54 V -54 Q -100 -75 -79 -75 Z" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1.5" transform="translate(0 -3)" />
+    </g>
+    
+    <g transform="translate(-122 0) scale(-1 1)">
+      <path d="M -79 -75 H 79 Q 100 -75 100 -54 V 54 Q 100 75 79 75 H -79 Q -100 75 -100 54 V -54 Q -100 -75 -79 -75 Z" fill="url(#lensDark)" />
+      <path d="M -79 -75 H 79 Q 100 -75 100 -54 V 54 Q 100 75 79 75 H -79 Q -100 75 -100 54 V -54 Q -100 -75 -79 -75 Z" fill="url(#lensGloss)" opacity="0.55" />
+      <path d="M -79 -75 H 79 Q 100 -75 100 -54 V 54 Q 100 75 79 75 H -79 Q -100 75 -100 54 V -54 Q -100 -75 -79 -75 Z" fill="none" stroke="url(#rimGold)" stroke-width="10" stroke-linejoin="round" />
+      <path d="M -79 -75 H 79 Q 100 -75 100 -54 V 54 Q 100 75 79 75 H -79 Q -100 75 -100 54 V -54 Q -100 -75 -79 -75 Z" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1.5" transform="translate(0 -3)" />
+    </g>
+    <path d="M -34 -24 Q 0 -51.00000000000001 34 -24"
+              fill="none" stroke="url(#rimGold)" stroke-width="8.5" stroke-linecap="round" />
+    
+    <g stroke="url(#rimGold)" stroke-width="8" stroke-linecap="round" fill="none">
+      <path d="M 222 -36 Q 288 -33 322 27" />
+      <path d="M -222 -36 Q -288 -33 -322 27" />
+    </g>
+    <g fill="#E8D7A5" opacity="0.9">
+      <circle cx="218" cy="-36" r="5.5" />
+      <circle cx="-218" cy="-36" r="5.5" />
+    </g>
+  </g>
+        </g>
+        <rect x="1081.6914285714283" y="480.53333333333336" width="149.76" height="145.6" rx="4"
+              fill="#ffffff" fill-opacity="0.035" stroke="#ffffff" stroke-opacity="0.07" />
+        <g transform="translate(1156.5714285714284 553.3333333333334) scale(0.26455299539170507)" opacity="0.85">
+          
+  <g>
+    <ellipse cx="0" cy="117" rx="217.56" ry="18" fill="url(#castShadow)" />
+    
+    <g transform="translate(122 0) scale(1 1)">
+      <path d="M -100 -39 Q -88 -75 0 -75 Q 92 -75 100 -36 Q 104 75 0 75 Q -104 75 -100 -39 Z" fill="url(#lensDark)" />
+      <path d="M -100 -39 Q -88 -75 0 -75 Q 92 -75 100 -36 Q 104 75 0 75 Q -104 75 -100 -39 Z" fill="url(#lensGloss)" opacity="0.55" />
+      <path d="M -100 -39 Q -88 -75 0 -75 Q 92 -75 100 -36 Q 104 75 0 75 Q -104 75 -100 -39 Z" fill="none" stroke="url(#rimSteel)" stroke-width="10" stroke-linejoin="round" />
+      <path d="M -100 -39 Q -88 -75 0 -75 Q 92 -75 100 -36 Q 104 75 0 75 Q -104 75 -100 -39 Z" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1.5" transform="translate(0 -3)" />
+    </g>
+    
+    <g transform="translate(-122 0) scale(-1 1)">
+      <path d="M -100 -39 Q -88 -75 0 -75 Q 92 -75 100 -36 Q 104 75 0 75 Q -104 75 -100 -39 Z" fill="url(#lensDark)" />
+      <path d="M -100 -39 Q -88 -75 0 -75 Q 92 -75 100 -36 Q 104 75 0 75 Q -104 75 -100 -39 Z" fill="url(#lensGloss)" opacity="0.55" />
+      <path d="M -100 -39 Q -88 -75 0 -75 Q 92 -75 100 -36 Q 104 75 0 75 Q -104 75 -100 -39 Z" fill="none" stroke="url(#rimSteel)" stroke-width="10" stroke-linejoin="round" />
+      <path d="M -100 -39 Q -88 -75 0 -75 Q 92 -75 100 -36 Q 104 75 0 75 Q -104 75 -100 -39 Z" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1.5" transform="translate(0 -3)" />
+    </g>
+    <path d="M -34 -24 Q 0 -51.00000000000001 34 -24"
+              fill="none" stroke="url(#rimSteel)" stroke-width="8.5" stroke-linecap="round" />
+    
+    <g stroke="url(#rimSteel)" stroke-width="8" stroke-linecap="round" fill="none">
+      <path d="M 222 -36 Q 288 -33 322 27" />
+      <path d="M -222 -36 Q -288 -33 -322 27" />
+    </g>
+    <g fill="#9a9a9a" opacity="0.9">
+      <circle cx="218" cy="-36" r="5.5" />
+      <circle cx="-218" cy="-36" r="5.5" />
+    </g>
+  </g>
+        </g>
+        <rect x="1259.977142857143" y="480.53333333333336" width="149.76" height="145.6" rx="4"
+              fill="#ffffff" fill-opacity="0.035" stroke="#ffffff" stroke-opacity="0.07" />
+        <g transform="translate(1334.857142857143 553.3333333333334) scale(0.26455299539170507)" opacity="0.85">
+          
+  <g>
+    <ellipse cx="0" cy="117" rx="217.56" ry="18" fill="url(#castShadow)" />
+    
+    <g transform="translate(122 0) scale(1 1)">
+      <path d="M -72 -75 H 86 L 100 -6 L 60 75 H -50 L -100 -15 Z" fill="url(#lensDark)" />
+      <path d="M -72 -75 H 86 L 100 -6 L 60 75 H -50 L -100 -15 Z" fill="url(#lensGloss)" opacity="0.55" />
+      <path d="M -72 -75 H 86 L 100 -6 L 60 75 H -50 L -100 -15 Z" fill="none" stroke="url(#rimSteel)" stroke-width="10" stroke-linejoin="round" />
+      <path d="M -72 -75 H 86 L 100 -6 L 60 75 H -50 L -100 -15 Z" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1.5" transform="translate(0 -3)" />
+    </g>
+    
+    <g transform="translate(-122 0) scale(-1 1)">
+      <path d="M -72 -75 H 86 L 100 -6 L 60 75 H -50 L -100 -15 Z" fill="url(#lensDark)" />
+      <path d="M -72 -75 H 86 L 100 -6 L 60 75 H -50 L -100 -15 Z" fill="url(#lensGloss)" opacity="0.55" />
+      <path d="M -72 -75 H 86 L 100 -6 L 60 75 H -50 L -100 -15 Z" fill="none" stroke="url(#rimSteel)" stroke-width="10" stroke-linejoin="round" />
+      <path d="M -72 -75 H 86 L 100 -6 L 60 75 H -50 L -100 -15 Z" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1.5" transform="translate(0 -3)" />
+    </g>
+    <path d="M -34 -24 Q 0 -51.00000000000001 34 -24"
+              fill="none" stroke="url(#rimSteel)" stroke-width="8.5" stroke-linecap="round" />
+    
+    <g stroke="url(#rimSteel)" stroke-width="8" stroke-linecap="round" fill="none">
+      <path d="M 222 -36 Q 288 -33 322 27" />
+      <path d="M -222 -36 Q -288 -33 -322 27" />
+    </g>
+    <g fill="#9a9a9a" opacity="0.9">
+      <circle cx="218" cy="-36" r="5.5" />
+      <circle cx="-218" cy="-36" r="5.5" />
+    </g>
+  </g>
+        </g>
+      <rect x="144" y="110" width="1312" height="540" fill="none" stroke="#C9A227" stroke-opacity="0.28" />
+      <rect x="0" y="720" width="1600" height="280" fill="#000" opacity="0.28" /></svg>
