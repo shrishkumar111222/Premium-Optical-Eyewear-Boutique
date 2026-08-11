@@ -81,8 +81,9 @@ export const business = {
     framesInStore: '2,400+',
   },
 
-  /** Canonical site URL — update before deploying for correct OG tags. */
-  siteUrl: 'https://example.com',
+  /** Canonical site URL — update before deploying for correct OG tags.
+      On GitHub Pages the repo path is appended automatically (see lib/asset.ts). */
+  siteUrl: 'https://shrishkumar111222.github.io',
 
   /** Currency symbol used for the demo price placeholders. */
   currency: '₹',
