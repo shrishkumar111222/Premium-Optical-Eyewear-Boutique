@@ -2,7 +2,10 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [main]
+    # The `github-pages` environment only accepts deployments from the
+    # repository's default branch. Both are listed so the site publishes
+    # whichever one this repo is currently defaulting to.
+    branches: [main, claude/premium-eyewear-boutique-wmgt3d]
   workflow_dispatch:
 
 permissions:
